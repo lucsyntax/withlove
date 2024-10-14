@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://with-lov.com
+
+# Sitemaps
+Sitemap: https://with-lov.com/sitemap.xml
+Sitemap: https://with-lov.com/server-sitemap-index.xml

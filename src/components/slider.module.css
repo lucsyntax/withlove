@@ -1,0 +1,63 @@
+.slider {
+  position: relative;
+  width: 90%;
+  height: 500px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out; /* Transição suave */
+}
+
+.active {
+  opacity: 1;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .slider {
+    width: 400px;
+    height: 520px;
+    margin: 0 auto;
+  }
+}
+
+.heart {
+  position: absolute;
+  top: -20%; /* Corações começam fora da tela */
+  font-size: 20px;
+  animation: fall 5s linear forwards;
+  opacity: 0.8;
+  z-index: 999; /* Corações por cima */
+}
+
+/* Animação de queda com movimento aleatório */
+@keyframes fall {
+  0% {
+    top: -10%; /* Começa fora da tela */
+    transform: translateX(0) rotate(0deg);
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(20px) rotate(45deg);
+  }
+  100% {
+    top: 110%; /* Sai da tela por baixo */
+    transform: translateX(-20px) rotate(90deg);
+    opacity: 0;
+  }
+}
