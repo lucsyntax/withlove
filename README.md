@@ -33,6 +33,16 @@ Preview Página Casal -
 Ao clicar na cartinha ela abre e revela a mensagem - 
 <img width="1026" height="821" alt="image" src="https://github.com/user-attachments/assets/ccd5d0b9-d72b-44f5-90a9-9bc43cd3a0af" />
 
+URL PERSONALIZADA -
+<img width="406" height="72" alt="image" src="https://github.com/user-attachments/assets/9b00deaf-5db8-48c1-837c-6abf1c9d9076" />
+
+- Mensagem "Eu te Amo" em 50 linguas -
+- Poesia de amor unica para cada casal, se baseando no dia que comecaram a história.
+- Quadrinho de mensagens - 
+<img width="1894" height="702" alt="image" src="https://github.com/user-attachments/assets/bc3e6f86-a3a8-4e94-8113-9d3cd23a02c9" />
+
+
+
 
 
 
