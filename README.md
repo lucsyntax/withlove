@@ -1,40 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# With Love, com amor.
 
-First, run the development server:
+- Com amor é um projeto inspirado no SAAS do André, chamado de lov-u.
+- Ele tem como finalidade entregar um modelo de carta de amor, um envio de presente eterno.
+- Foi feito em um momento que eu precisava presentear minha namorada e encontrei essa forma de fazer!
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Stacks
+- ReactJS, porque todo projeto é basicamente um SPA.
+- Usei o NextJs para as trativas de várias páginas que necessitavam de renderização.
+- Usei o Tailwind para padronizar o Estilo de todo sistema
+- Firebase como Banco de Dados para armazenar e tratar os dados dos clientes (casais), e apagar caso não seja efetuada a compra.
+- Integrei algumas API, como API da NASA onde é buscado de acordo com a data e hora uma foto do céu naquele momento.
+- AWS para envio de emails automaticos ao final da compra, para os clientes receberem seus acessos.
+- Gateway Stripe e MercadoPago para aceitar formas de pagamentos diversas, como pix e cartão.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Acesso
+Você pode acessar esse projeto em:
+[With Lov - Um Presente de Amor](https://www.with-lov.com/)
+ 
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+  
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
